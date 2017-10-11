@@ -1,5 +1,5 @@
 using System;
-
+//azure function 
 public static void Run(string input, TraceWriter log, out string outputQueueItem, ICollector<FaceResult> outputTable)
 {
     log.Info($"C# manually triggered function called with input: {input}");
